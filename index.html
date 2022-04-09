@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATTA DASTUR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="menu_toggle"></div>
+        <div class=" profile">
+            <div class="imgBx">
+                <img src="gul11.jpg ">
+            </div> 
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <spam class="icon"></spam><ion-icon name="person-outline"></ion-icon>                   
+                    <spam class="text">Profile</spam>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <spam class="icon"></spam><ion-icon name="chatbox-outline"></ion-icon>                   
+                    <spam class="text">Inbox</spam>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <spam class="icon"></spam><ion-icon name="settings-outline"></ion-icon>                   
+                    <spam class="text">Settings</spam>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <spam class="icon"></spam><ion-icon name="help-outline"></ion-icon>                  
+                    <spam class="text">Support</spam>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <spam class="icon"></spam> <ion-icon name="log-out-outline"></ion-icon>                  
+                    <spam class="text">Logout</spam>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const menu_toggle = document.querySelector(".menu_toggle");
+        const navigation = document.querySelector(".navigation")
+        menu_toggle.onclick = function(){
+            navigation.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>
